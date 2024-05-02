@@ -1,0 +1,20 @@
+{
+    "name": "omerkhan/php-service",
+    "description": "A PHP service for my project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Omerkhan\\PhpService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Omer Khan",
+            "email": "mdomerkhan8000@gmail.com"
+        }
+    ],
+    "require": {
+        "gerbenjacobs/habbo-api": "^6.0"
+    }
+}
